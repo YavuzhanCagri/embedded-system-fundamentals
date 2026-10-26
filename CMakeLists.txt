@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 4.2)
-project(0_1 C)
+cmake_minimum_required(VERSION 3.20)
+project(embedded_system_fundamentals C)
 
-set(CMAKE_C_STANDARD 23)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(0_1 main.c)
+add_executable(module_01 01_memory_and_registers/main.c)
